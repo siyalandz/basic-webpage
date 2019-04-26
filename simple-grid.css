@@ -22,7 +22,7 @@ body {
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: white;
+  color: #333447;
   line-height: 1.5;
 }
 
@@ -78,7 +78,6 @@ p {
 
 .right {
   text-align: right;
-  
 }
 
 .center {
@@ -248,5 +247,4 @@ p {
     width: 75%;
     max-width: 60rem;
   }
-
-
+}
