@@ -1,0 +1,99 @@
+        body {
+            font-family: Arial;
+            font-size-adjust: initial;
+            font-display: lime;
+            background-color: lavender
+      
+        }
+    
+        .which-city {
+            float:left;
+            width: 20%;
+            
+        }
+         .clearfix {
+            overflow: auto;
+            zoom: 1;
+        }
+
+        .foreign-language {
+            border: black
+        }
+
+        .which-city {
+            position: relative;
+
+        }
+        .border{
+            border: 1px solid red;
+        }
+
+         .places {
+           float:left; 
+           width:30%;
+           margin:1em;
+           display: block
+
+        } 
+
+        table, th, td {
+            border: 1px solid black;
+             border-collapse: collapse; 
+        }
+
+        .dzira {
+            position: static;
+            left: 2px;
+            
+        }
+
+        .left {
+          float:right;
+          display: block;
+        
+         }
+       
+         .right {
+           float:right;
+           
+         }
+       
+        @media only screen and (max-width:800px) {
+            .body{
+            background-color: blue;
+            }
+            }
+    For tablets
+   .main { 
+      width: 80%;  
+    padding: 0; 
+   } 
+  
+  /*left {
+     float:left;
+    margin: 1em;
+  }*/
+
+  /*.right {
+      float: right;
+      margin: 1em;
+  } */
+
+ @media only screen and (max-width:500px) {
+   For mobile phones: 
+   .menu, .main, .right {
+    width: 100%;
+  }
+   } 
+
+   @media(min-width:960px){
+       .places {
+           width : 30%;
+       }
+       .historical-places {
+           float:right; 
+           width:100%;
+              
+        }
+   
+   }

@@ -5,210 +5,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>my webpage</title>
-    <style>
-        body {
-            font-family: Arial;
-            font-size-adjust: initial;
-            font-display: lime;
-            background-repeat: no-repeat
-      
-        }
-        ul{
-            margin-left: 150px;
-        }
+    <link rel="stylesheet" href="style.css">
+    <title>my webpage dzi</title>
 
-        .side-bar {
-            float: left;
-            width: 30%;
-        }
-
-        .which-city {
-            float: left;
-            width: 30%;
-        }
-
-        .historical-places {
-            float: left;
-            display: block;
-
-            width:100%;
-        }
-
-        .clearfix {
-            overflow: auto;
-            zoom: 1;
-        }background="mountain.jpg" style="width:1000px;"
-
-        .foreign-language {
-            border: black
-        }
-
-        .which-city {
-            position: relative;
-
-        }
-        .border{
-            border: 1px solid red;
-        }
-
-        .places {
-            float: left;
-            display: block;
-
-            width:50%;
-        }
-        .places img{
-            float: left;background="mountain.jpg" style="width:1000px;"
-            display: block;
-        }
-
-
-        table,
-        th,
-        td {
-            border: 1px solid black;
-             border-collapse: collapse; 
-        }
-
-        .dzira {
-            position: static;
-            left: 2px;
-
-        }
-        @media only screen and (max-width:800px) {
-  /* For tablets: */
-  .main {
-    width: 80%;
-    padding: 0;
-  }
-  .right {
-    width: 100%;
-  }
-}
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .menu, .main, .right {
-    width: 100%;
-  }
-   }
-</style>
 </head>
 
-<body background="mountain.jpg" style="width:1000px;">
-    <div class="clearfix">
-        <h1 class="col-4">
-            <font size="6" color="yellow">SIYANDA LANDZELA</font>
-        </h1>
-    </div>
-    <div class="clearfix">
-        <img src="dzira.jpg" style="width: 196px;" class="bottom">
-
-    </div>
-    <div>
-        <h3>
-            <font size="6" color="yellow">London City</font>
-        </h3>
+<body>
+    <!-- background="mountain.jpg" style="width:1000px;" -->
+    <div  id="header">
         <div class="clearfix">
-            <img class="which-city" src="city.jpg" style="width: 209px;">
-            <p>
-                <font name="Arial" size="5" color="yellow">
-                    London is a capital city of England.
-                    It has a iconic clock tower.
-                    London has bridge tower.
-                    
-                </font>
-            </p>
+            <h1>
+                <font size="6" color="black">SIYANDA LANDZELA</font>
+            </h1>
+            <img src="landz.jpg" style="width: 200px;" class="bottom">
         </div>
-    
-    <div class="container 2">
-        <div>
-        <h3>
-            <font name="arial" size="5" color="black">
-                Foreign Language
-                </h3>
-        </div>
-                <table>
-                    <tr>
-
-                        <th>English words</th>
-                        <th>Spanish words</th>
-
-                    </tr>
-                    <tr>
-                        <td>Love</td>
-                        <td>Armor</td>
-                    </tr>
-                    <td>Fear</td>
-                    <td>Peur</td>
-
-                    </tr>
-                    <tr>
-                        <td>God</td>
-                        <td>Dios</td>
-                    </tr>
-                </table>
-
+       
+        
+    </div>
+    <div class="container-1 clearfix">
+            <h2>
+                    <font size="4" color="black"> London City</font>
+            </h2>
+            <img class="which-city" src="city.jpg" style="width: 180px;">
+        <ul>
+            <font name="Arial" size="4" color="Black">
+                <li>London is a capital city of England.</li>
+                <li>It has a iconic clock tower.</li>
+                <li>London has bridge tower.</li>
+                <li>I am also fascinated by the weather in London.</li>
             </font>
+        </ul>
+    
+</div>
+    <div class="container-2 clearfix">
+        
+            <h3>
+                    <font size="4" color="black">Foreign Language</font>
+            </h3>
+        </div>
+        <div>
+        <table>
+            <tr>
 
+                <th>English phrases</th>
+                <th>Spanish phrases</th>
+
+            </tr>
+            <tr>
+                <td>Love</td>
+                <td>Armor</td>
+            </tr>
+            <td>Fear</td>
+            <td>Peur</td>
+
+            </tr>
+            <tr>
+                <td>God</td>
+                <td>Dios</td>
+            </tr>
+        </table>
+    </div>
     </div>
     <div class="historical-places">
-        <div>
+        <h3>
+            <font size="5" color="black"> Historical Places</font>
+        </h3>
+    </div>
+        <div class="places clearfix">
             <h3>
-                <font size="5" color="black"> Historical Places</font>
+                iziko
             </h3>
+            <img class="left" src="iziko.jpg" style="width:190px" height="150">
+            <ul>
+                <li> iziko is a musesum that is surrounded by scenic grdens.</li>
+                <li> it covers everything from ancient rock art and fossils.</li>
+                <li> iziko is an Isixhosa word which means "hearth",traditinally and symbolically the social
+                    centre of the home.</li>
+            </ul>
+        </div> 
+        <div class="places clearfix">
+            <h3>
+                Parliament
+            </h3>
+            <img class="right" src="parliament.jpg" width="190px" height="150">
+            <ul>
+                <li>In South Africa members of parliament represent people of South africa.</li>
+                <li>In Democratic country parliament plays important role.</li>
+                <li> Members of parliament are peoples voice.</li>
+            </ul>
+        </div>
+
+        <div class="places clearfix">
             
-                <div class=" places clearfix">
-                    <h3>
-                            <font size="4" color="black"> iziko</font>  
-                    </h3>
-                    <img src="iziko.jpg" style="width: 180px;">
-                    <p>
-                        <ul>iziko is a musesum that is surrounded by scenic grdens</ul>
-                        <ul>it covers everything from ancient rock art and fossils.</ul>
-                        <ul>iziko is an Isixhosa word which means "hearth",traditinally and symbolically the social centre of the home</ul>
-                    </p>
-                    
-                </div>
-                <div class="  places clearfix">
-                    <h3>
-                            <font size="4" color="black"> Parliament</font>
-     
-                    </h3>
-                    <img src="parliament.jpg"
-                        style="width:180px;height:170px;margin-left: 50px;">
-                        <p> 
-                         <ul> In South Africa members of parliament represent people of South africa.</ul>
-                    <ul >In Democratic country parliament plays important role.</ul>
-                     <ul> Members of parliament are peoples voice.</ul>
-                     </p>
-
-                    
-
-                    </p>
-                </div>
-                <div class="  places clearfix">
-                    <h3>
-                            <font size="4" color="black"> Castle of Good Hope</font>  
-                        </h3>
-                    </h3>
-                    <img src="the_castle_of_good_hope_.jpg" style="width: 180px;">
-                    <p>
-                           <ul> It is a oldest colonial building in south africa.</ul>
-                           <ul> It was built by dutch colonialists in 17th century.</ul>
-                            
-                    </p>
-                  
-                </div>
+            <h3>
+                Castle of Good Hope
+            </h3>
+            <img class="left" src="the_castle_of_good_hope_.jpg" width="190px" height="150">
+            <ul>
+                <li> It is a oldest colonial building in south africa.</li>
+                <li> It was built by dutch colonialists in 17th century.</li>
+                <li>During the second Boer war the castle of Good hope was used as a prison.</li>
+            </ul>
         </div>
-        <div>
-
-        </div>
-
-        <div>
-            <h3></h3>
-        </div>
-
     </div>
 </body>
 
