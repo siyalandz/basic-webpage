@@ -8,7 +8,107 @@
     <a href="my-webpage.html">simple html page</a>
     <a href="my webpage-grid.html"> html grid page</a>
     <title></title>
+<style>
+body {
+            font-family: Arial;
+            font-size-adjust: initial;
+            font-display: lime;
+            background-color: lavender
+      
+        }
+    
+        .which-city {
+            float:left;
+            width: 20%;
+            
+        }
+         .clearfix {
+            overflow: auto;
+            zoom: 1;
+        }
 
+        .foreign-language {
+            border: black
+        }
+
+        .which-city {
+            position: relative;
+
+        }
+        .border{
+            border: 1px solid red;
+        }
+
+         .places {
+           float:left; 
+           width:30%;
+           margin:1em;
+           display: block
+
+        } 
+
+        table, th, td {
+            border: 1px solid black;
+             border-collapse: collapse; 
+        }
+
+        .dzira {
+            position: static;
+            left: 2px;
+            
+        }
+
+        .left {
+          float:right;
+          display: block;
+        
+         }
+       
+         .right {
+           float:left;
+           
+         }
+       
+        @media only screen and (max-width:800px) {
+            .body{
+            background-color: blue;
+            }
+            }
+    For tablets
+   .main { 
+      width: 80%;  
+    padding: 0; 
+   } 
+  
+  .left {
+     float:right;
+    margin: 1em;
+  }
+
+  .right {
+      float: right;
+      margin: 1em;
+  } 
+
+ @media only screen and (max-width:500px) {
+   For mobile phones
+   .menu, .main, .right {
+    width: 100%;
+  }
+   } 
+
+   @media(min-width:960px){
+       .places {
+           width : 30%;
+       }
+       .historical-places {
+           float:right; 
+           width:100%;
+              
+        }
+   
+   }
+</style>
 </head>
 
 <body>
@@ -76,7 +176,7 @@
             <h3>
                 iziko
             </h3>
-            <img class="left" src="iziko.jpg" style="width:190px" height="150">
+            <img class="left" src="me.iziko.jpg" style="width:120px" height="190">
             <ul>
                 <li> iziko is a musesum that is surrounded by scenic grdens.</li>
                 <li> it covers everything from ancient rock art and fossils.</li>
@@ -88,7 +188,7 @@
             <h3>
                 Parliament
             </h3>
-            <img class="right" src="parliament.jpg" width="190px" height="150">
+            <img class="right" src="parliament.jpg" width="120px" height="190">
             <ul>
                 <li>In South Africa members of parliament represent people of South africa.</li>
                 <li>In Democratic country parliament plays important role.</li>
@@ -101,7 +201,7 @@
             <h3>
                 Castle of Good Hope
             </h3>
-            <img class="left" src="the_castle_of_good_hope_.jpg" width="190px" height="150">
+            <img class="left" src="me.jpg" width="120px" height="190">
             <ul>
                 <li> It is a oldest colonial building in south africa.</li>
                 <li> It was built by dutch colonialists in 17th century.</li>
